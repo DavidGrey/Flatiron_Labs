@@ -24,8 +24,7 @@ host_name = gets.chomp
 
 
 puts "Dear " + guest_name + ","
-
-puts "You are cordially invited to the " + party_name + " on " + months[Integer(month)] + " at " + time+"."
+puts "You are cordially invited to the " + party_name + " on " + months[Integer(month)]+" "+day + " at " + time+"."
 puts "Sincerely,\n"
 
 puts host_name
